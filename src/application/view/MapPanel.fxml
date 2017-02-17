@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import com.lynden.gmapsfx.GoogleMapView?>
+
+<fx:root type="BorderPane" xmlns:fx="http://javafx.com/fxml/1">
+	<center>
+		<GoogleMapView fx:id="mapView" />
+	</center>
+</fx:root>
+

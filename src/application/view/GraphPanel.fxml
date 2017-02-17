@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+
+<?import com.lynden.gmapsfx.GoogleMapView?>
+
+<fx:root type="BorderPane" xmlns:fx="http://javafx.com/fxml/1">
+	<center>
+		<TableView fx:id="tableView">
+			<columns>
+				<TableColumn text="Station Name"></TableColumn>
+				<TableColumn text="Bikes Available"></TableColumn>
+			</columns>
+		</TableView>
+	</center>
+</fx:root>
+
