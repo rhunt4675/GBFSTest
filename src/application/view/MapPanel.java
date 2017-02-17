@@ -68,12 +68,9 @@ public class MapPanel extends BorderPane implements Initializable, MapComponentI
             .zoom(14);
         
 		map = mapView.createMap(mapOptions);
-		
-		System.out.println("done");
 	}
 	
 	public void addBikeStations(StationList stationList) {
-		System.out.println("start");
 		Collection<Station> stations = stationList.getMapOfStations().values();
 		for (Station station : stations) {
 			// Create a Marker (if necessary)
